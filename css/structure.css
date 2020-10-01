@@ -3,7 +3,6 @@
 | Be
 | Structure styles
 | http://HSquare.com
-| http://themeforest.net/user/HSquare
 |--------------------------------------------------------------------------
 | 1.0 Grid
 | 2.0 Layout
@@ -6654,6 +6653,8 @@ body {
 
     #Top_bar .logo #logo {
         padding: 5px 42px 15px;
+        padding-left: 0;
+        float: left;
     }
 
     #Top_bar .logo #logo img {
