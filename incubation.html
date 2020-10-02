@@ -803,7 +803,7 @@
             ></a>
             <div class="copyright">
             <!-- &copy;  -->
-            2020, HSquare
+            &copy; 2020, HSquare
             </div>
           </div>
           </div>
@@ -839,17 +839,16 @@
       }
 
       .dk .flex-parent .flex-image {
-        max-width: 300px;
+        max-width: 200px;
         display: flex;
-      }
-
-      .dk .flex-parent .flex-image:nth-child(odd) {
+        order: -1;
         padding-right: 36px;
       }
 
-      .dk .flex-parent .flex-image:nth-child(even) {
+
+      /* .dk .flex-parent .flex-image:nth-child(even) {
         padding-left: 36px;
-      }
+      } */
 
 
       .gallery-images-flex{
@@ -876,6 +875,7 @@
         background-color: white;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px #cec2c2;
+        align-items: center;
       }
 
       .flex-text {
@@ -904,7 +904,7 @@
 
         .flex-image {
           padding-bottom: 30px;
-          max-width: 200px !important;
+          max-width: 100px !important;
         }
 
 
