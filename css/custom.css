@@ -13,3 +13,21 @@
 	}
 	
 }
+
+
+@media only screen and (max-width: 1240px) {
+	#Top_bar.is-sticky {
+		position: fixed !important;
+		width: 100%;
+		left: 0;
+		top: -60px;
+		height: 60px;
+		z-index: 701;
+		background: #fff;
+		opacity: .97;
+		filter: alpha(opacity=97);
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1)
+	}
+}
