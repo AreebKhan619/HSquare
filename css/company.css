@@ -2419,7 +2419,11 @@ p.flv_align_right, div.flv_align_right {
 		display: none
 	}
 	#Top_bar #logo img.logo-mobile {
-		display: inline-block
+		display: inline-block;
+
+		position: relative;
+		top: 10px;
+	
 	}
 	.logo-overflow #Top_bar .logo {
 		height: auto!important
