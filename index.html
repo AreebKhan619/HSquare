@@ -183,7 +183,7 @@
     color: white;
     display: flex;
 ">
-<marquee scrollamount="15">
+<marquee id="scroll-marquee" scrollamount="5">
 Application deadline extended till 25th November 2020
 <span style="margin-left: 50px;">अर्ज भरण्याची मुदत दिनांक २५ नोव्हेंबर २०२० पर्यंत वाढविण्यात आली आहे.</span>
 </marquee>
@@ -954,6 +954,16 @@ Application deadline extended till 25th November 2020
         arr.forEach(currEl => (currEl.style.display = "block"));
         document.getElementById("show_more_btn").style.display = "none";
       }
+
+      jQuery(document).ready(function() {
+      
+        if(screen.width<500){
+          
+        var marquee 	= $( '#scroll-marquee' );
+        marquee.attr("scrollamount","5")
+        }
+      })
+      
     </script>
 
     <style>
